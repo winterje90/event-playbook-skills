@@ -29,7 +29,7 @@ Events are tracked independently. You can run multiple events concurrently — p
 ### Prerequisites
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed and configured
-- (Optional) [gws CLI](https://github.com/nicholasgasior/gws) for Google Docs and Sheets output
+- (Optional) [gws CLI](https://github.com/googleworkspace/cli) for Google Docs and Sheets output
 
 ### Install the Skills
 
