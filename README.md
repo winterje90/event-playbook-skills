@@ -64,14 +64,13 @@ echo "Done. Skills installed."
 
 ### Google Docs/Sheets Setup (Optional)
 
-If you want the skills to generate shareable Google Docs and Sheets, install and authenticate the gws CLI:
+The skills can generate shareable Google Docs and Sheets using the [gws CLI](https://github.com/googleworkspace/cli) — Google's open-source CLI for Google Workspace APIs.
 
-```bash
-npm install -g @googleworkspace/cli
-gws auth login -s drive,docs,sheets
-```
+**Full setup guide:** [`docs/gws-setup.md`](docs/gws-setup.md) — takes about 5 minutes, handled entirely by Claude Code.
 
-The skills will work without gws — you just won't get the Google Docs/Sheets output. All content is also saved as local markdown files.
+The guide also includes [`docs/gws-claude-reference.md`](docs/gws-claude-reference.md) — a reference file you add to your `~/.claude/CLAUDE.md` that teaches Claude Code the gws command syntax.
+
+The skills work without gws — you just won't get the Google Docs/Sheets output. All content is also saved as local markdown files.
 
 ## Usage
 
